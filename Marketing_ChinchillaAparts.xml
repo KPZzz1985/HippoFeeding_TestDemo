@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>Assistant</Author>
+    <LastAuthor>Assistant</LastAuthor>
+    <Created>2025-10-28T00:00:00Z</Created>
+    <Company>Generated</Company>
+    <Version>16.00</Version>
+  </DocumentProperties>
+
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+
+  <!-- Sheet 1: Fact_RuStore_Installs -->
+  <Worksheet ss:Name="Fact_RuStore_Installs">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Дата</Data></Cell>
+        <Cell><Data ss:Type="String">Установки</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-21</Data></Cell>
+        <Cell><Data ss:Type="Number">83</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-22</Data></Cell>
+        <Cell><Data ss:Type="Number">90</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-23</Data></Cell>
+        <Cell><Data ss:Type="Number">64</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-24</Data></Cell>
+        <Cell><Data ss:Type="Number">28</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-25</Data></Cell>
+        <Cell><Data ss:Type="Number">38</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-26</Data></Cell>
+        <Cell><Data ss:Type="Number">55</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-27</Data></Cell>
+        <Cell><Data ss:Type="Number">60</Data></Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <Selected/>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+
+  <!-- Sheet 2: MediaPlan -->
+  <Worksheet ss:Name="MediaPlan">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Период</Data></Cell>
+        <Cell><Data ss:Type="String">Канал</Data></Cell>
+        <Cell><Data ss:Type="String">Кампания/гипотеза</Data></Cell>
+        <Cell><Data ss:Type="String">Креатив/сообщение</Data></Cell>
+        <Cell><Data ss:Type="String">Бюджет ₽</Data></Cell>
+        <Cell><Data ss:Type="String">Показы</Data></Cell>
+        <Cell><Data ss:Type="String">Клики</Data></Cell>
+        <Cell><Data ss:Type="String">CTR %</Data></Cell>
+        <Cell><Data ss:Type="String">CPC ₽</Data></Cell>
+        <Cell><Data ss:Type="String">Установки (план)</Data></Cell>
+        <Cell><Data ss:Type="String">Установки (факт)</Data></Cell>
+        <Cell><Data ss:Type="String">CR к установке %</Data></Cell>
+        <Cell><Data ss:Type="String">CPI ₽</Data></Cell>
+        <Cell><Data ss:Type="String">Покупки</Data></Cell>
+        <Cell><Data ss:Type="String">Доход ₽</Data></Cell>
+        <Cell><Data ss:Type="String">ROAS %</Data></Cell>
+        <Cell><Data ss:Type="String">Ответственный</Data></Cell>
+        <Cell><Data ss:Type="String">Статус</Data></Cell>
+        <Cell><Data ss:Type="String">Заметки</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-21—2025-10-27</Data></Cell>
+        <Cell><Data ss:Type="String">RuStore Organic</Data></Cell>
+        <Cell><Data ss:Type="String">Листинг 1.0.2</Data></Cell>
+        <Cell><Data ss:Type="String">Органика RuStore</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell/><Cell><Data ss:Type="Number">418</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="String">Маркетинг</Data></Cell>
+        <Cell><Data ss:Type="String">Факт</Data></Cell>
+        <Cell><Data ss:Type="String">Факт из RuStore</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-13—2025-11-09</Data></Cell>
+        <Cell><Data ss:Type="String">RuStore ASO</Data></Cell>
+        <Cell><Data ss:Type="String">Оптимизация листинга</Data></Cell>
+        <Cell><Data ss:Type="String">Скрины 6–8, оффер 'антистресс'</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="Number">100</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="String">Маркетинг</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">A/B первого скрина, описание</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-13—2025-11-09</Data></Cell>
+        <Cell><Data ss:Type="String">VK Ads</Data></Cell>
+        <Cell><Data ss:Type="String">Широкая казуал-аудитория</Data></Cell>
+        <Cell><Data ss:Type="String">Видео 10–15с, 'cozy/relax'</Data></Cell>
+        <Cell><Data ss:Type="Number">15000</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="Number">312</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="String">Маркетинг</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Пример бюджета/ожидаемых инсталлов</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-13—2025-11-09</Data></Cell>
+        <Cell><Data ss:Type="String">Telegram Ads</Data></Cell>
+        <Cell><Data ss:Type="String">Тематические каналы игр</Data></Cell>
+        <Cell><Data ss:Type="String">Статик+GIF</Data></Cell>
+        <Cell><Data ss:Type="Number">10000</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="Number">147</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="String">Маркетинг</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Пример</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">2025-10-13—2025-11-09</Data></Cell>
+        <Cell><Data ss:Type="String">Dzen Ads</Data></Cell>
+        <Cell><Data ss:Type="String">Контентная аудитория</Data></Cell>
+        <Cell><Data ss:Type="String">Нативные карточки</Data></Cell>
+        <Cell><Data ss:Type="Number">5000</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="Number">75</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="String">Маркетинг</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Пример</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">ИТОГО (план)</Data></Cell>
+        <Cell><Data ss:Type="String">Сумма</Data></Cell>
+        <Cell/><Cell/>
+        <Cell><Data ss:Type="Number">30000</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/>
+        <Cell><Data ss:Type="Number">534</Data></Cell>
+        <Cell/><Cell/><Cell/><Cell/><Cell/>
+        <Cell/><Cell/><Cell><Data ss:Type="String">Суммируйте формулами</Data></Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+
+  <!-- Sheet 3: ASO_Checklist -->
+  <Worksheet ss:Name="ASO_Checklist">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Параметр</Data></Cell>
+        <Cell><Data ss:Type="String">Текущее</Data></Cell>
+        <Cell><Data ss:Type="String">План/задача</Data></Cell>
+        <Cell><Data ss:Type="String">Срок</Data></Cell>
+        <Cell><Data ss:Type="String">Статус</Data></Cell>
+        <Cell><Data ss:Type="String">Заметки</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Название</Data></Cell>
+        <Cell><Data ss:Type="String">Sticker Room: Chinchilla Aparts</Data></Cell>
+        <Cell><Data ss:Type="String">Ключи: стикеры, антистресс, дизайн</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 1</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Уточнить оффер</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Короткое описание</Data></Cell>
+        <Cell><Data ss:Type="String">Есть</Data></Cell>
+        <Cell><Data ss:Type="String">Добавить триггеры 'расслабься/уют'</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 1</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Повышение конверсии</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Полное описание</Data></Cell>
+        <Cell><Data ss:Type="String">Есть</Data></Cell>
+        <Cell><Data ss:Type="String">Структурировать: суть → особенности → польза</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 1</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Упор на 'без стресса'</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Теги</Data></Cell>
+        <Cell><Data ss:Type="String">Гиперказуальная, Детские, Истории, Матчинг</Data></Cell>
+        <Cell><Data ss:Type="String">Проверить/добавить релевантные</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 1</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Из RuStore</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Скриншоты</Data></Cell>
+        <Cell><Data ss:Type="String">4</Data></Cell>
+        <Cell><Data ss:Type="String">До 6–8; 2 варианта первого</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 2</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Первый = главный оффер</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Иконка</Data></Cell>
+        <Cell><Data ss:Type="String">Есть</Data></Cell>
+        <Cell><Data ss:Type="String">A/B с большей шиншиллой/контрастом</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 3</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Влияет на CTR</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Видео</Data></Cell>
+        <Cell><Data ss:Type="String">Нет</Data></Cell>
+        <Cell><Data ss:Type="String">Добавить 10–15с геймплей</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 3</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Может снизить CPI</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Размер APK</Data></Cell>
+        <Cell><Data ss:Type="String">70.5 MB</Data></Cell>
+        <Cell><Data ss:Type="String">Оптимизировать при возможности</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 4</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Не критично</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Рейтинг</Data></Cell>
+        <Cell><Data ss:Type="String">0.0 (мало оценок)</Data></Cell>
+        <Cell><Data ss:Type="String">Собрать ≥30 оценок, ≥4.6</Data></Cell>
+        <Cell><Data ss:Type="String">Нед 2–4</Data></Cell>
+        <Cell><Data ss:Type="String">План</Data></Cell>
+        <Cell><Data ss:Type="String">Через сообщество</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Ответы на отзывы</Data></Cell>
+        <Cell><Data ss:Type="String">Есть</Data></Cell>
+        <Cell><Data ss:Type="String">&lt;48ч на ответ</Data></Cell>
+        <Cell><Data ss:Type="String">Постоянно</Data></Cell>
+        <Cell><Data ss:Type="String">В работе</Data></Cell>
+        <Cell><Data ss:Type="String">Тёплые ответы</Data></Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+
+  <!-- Sheet 4: Summary -->
+  <Worksheet ss:Name="Summary">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Метрика</Data></Cell>
+        <Cell><Data ss:Type="String">Значение</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Период</Data></Cell>
+        <Cell><Data ss:Type="String">2025-10-21 — 2025-10-27</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Установки (итого)</Data></Cell>
+        <Cell ss:Formula="=SUM(Fact_RuStore_Installs!B2:B8)"><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Среднее/день</Data></Cell>
+        <Cell ss:Formula="=ROUND(AVERAGE(Fact_RuStore_Installs!B2:B8),1)"><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Минимум</Data></Cell>
+        <Cell ss:Formula="=MIN(Fact_RuStore_Installs!B2:B8)"><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Максимум</Data></Cell>
+        <Cell ss:Formula="=MAX(Fact_RuStore_Installs!B2:B8)"><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Прогноз 7 дней</Data></Cell>
+        <Cell ss:Formula="=ROUND(AVERAGE(Fact_RuStore_Installs!B2:B8)*7,0)"><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+
+</Workbook>
+
+

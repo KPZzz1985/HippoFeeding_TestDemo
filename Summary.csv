@@ -1,0 +1,9 @@
+Метрика,Значение,Комментарий
+Период,"2025-10-21 — 2025-10-27","7 дней"
+Установки (итого),,=SUM(Fact_RuStore_Installs!B2:B8) — формула для Excel/Sheets
+Среднее/день,,=ROUND(AVERAGE(Fact_RuStore_Installs!B2:B8),1)
+Минимум,,=MIN(Fact_RuStore_Installs!B2:B8)
+Максимум,,=MAX(Fact_RuStore_Installs!B2:B8)
+Прогноз 7 дней,,=ROUND(AVERAGE(Fact_RuStore_Installs!B2:B8)*7,0)
+KPI (первичный),"CPI ≤ 60₽; ≥30 оценок; рейтинг ≥4.6","Настройте под себя"
+
