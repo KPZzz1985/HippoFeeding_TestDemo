@@ -18,6 +18,7 @@ public sealed class MouthTrigger : MonoBehaviour
 	[SerializeField] private string animParamMouthOpen = "isMouthOpen";
 	[SerializeField] private string animTriggerFoodCatch = "isFoodCatch";
 	[SerializeField] private HippoMouthOpener mouthOpener; // optional: to immediately cancel open-delay
+	[SerializeField] private HippoSleepController sleepController; // optional: to accumulate satiation
 	[SerializeField] private float mouthCloseAfterCatchDelay = 0.5f;
 	[SerializeField] private float eatLockDelay = 0.2f; // delay before starting lock after contact
 	[SerializeField] private float eatLockDuration = 2.5f + 2.667f; // total lock duration
@@ -169,8 +170,11 @@ private void Update()
  				Destroy(itemInMouth.gameObject);
  				itemInMouth = null;
  			}
-            if (hippoAnimator != null && !string.IsNullOrEmpty(animParamMouthOpen))
+			if (hippoAnimator != null && !string.IsNullOrEmpty(animParamMouthOpen))
  				hippoAnimator.SetBool(animParamMouthOpen, false);
+			// notify satiation system
+			if (sleepController != null)
+				sleepController.NotifyMelonEaten();
             // cleanup state for next melons
             slicedRoot = null;
             convertTimer = 0f;

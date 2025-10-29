@@ -34,6 +34,11 @@ namespace HippoFeeding.Gameplay.Hippo
 		[SerializeField] private float returnProxyTravelDuration = 1f; // move a proxy from last food pos to original target
 		private bool weightFading;
 
+		[Header("Sleep Override")]
+		[SerializeField] private bool sleeping; // when true, suppress distance logic
+		[SerializeField] private float sleepFadeOut = 0.5f;
+		[SerializeField] private float wakeFadeIn = 0.7f;
+
 		[Header("Mouth Flag Source")] 
 		[SerializeField] private Animator animator;
 		[SerializeField] private string paramIsMouthOpen = "IsMouthOpen";
@@ -129,9 +134,12 @@ namespace HippoFeeding.Gameplay.Hippo
 		private void Update()
 		{
 			if (player == null) return;
-			float target = Vector3.Distance(transform.position, player.position) <= radius ? 1f : 0f;
-			currentWeight = Mathf.MoveTowards(currentWeight, target, weightLerpSpeed * Time.deltaTime);
-			ApplyWeight(currentWeight);
+			if (!sleeping)
+			{
+				float target = Vector3.Distance(transform.position, player.position) <= radius ? 1f : 0f;
+				currentWeight = Mathf.MoveTowards(currentWeight, target, weightLerpSpeed * Time.deltaTime);
+				ApplyWeight(currentWeight);
+			}
 
 			bool mouth = GetIsMouthOpen();
 			if (mouth != lastMouth && !axisAnimInProgress)
@@ -140,6 +148,19 @@ namespace HippoFeeding.Gameplay.Hippo
 				float from = currentAxisY;
 				float to = mouth ? axisYOpenValue : axisYClosedValue;
 				AnimateAxis(from, to, axisLerpDuration).Forget();
+			}
+		}
+
+		public void SetSleeping(bool value)
+		{
+			sleeping = value;
+			if (value)
+			{
+				FadeWeightAsync(0f, sleepFadeOut).Forget();
+			}
+			else
+			{
+				FadeWeightAsync(1f, wakeFadeIn).Forget();
 			}
 		}
 
